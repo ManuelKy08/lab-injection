@@ -1,0 +1,15 @@
+{
+  "name": "lab-injection-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vulnerability Lab backend - SQLi & NoSQLi challenges (educational only)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0"
+  }
+}

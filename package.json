@@ -1,0 +1,18 @@
+{
+  "name": "lab-injection",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vulnerability Lab - SQL Injection & NoSQL Injection practice (educational only)",
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "server": "npm run start --workspace server",
+    "client": "npm run dev --workspace client",
+    "build": "npm run build --workspace client",
+    "mongo:up": "docker compose up -d mongo",
+    "mongo:down": "docker compose down",
+    "dev": "npm run server"
+  }
+}

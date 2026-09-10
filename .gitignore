@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# build
+client/dist/
+server/data/*.db
+server/data/*.db-*
+
+# env & logs
+.env
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# screenshots lokal (opsional commit)
+docs/*.png
